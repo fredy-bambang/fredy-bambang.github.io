@@ -13,7 +13,7 @@
           <h2
             class="text-lg font-bold tracking-tighter text-black uppercase transition duration-500 ease-in-out transform hover:text-lightBlack-500 dark:text-lightBlue-400"
           >
-            Wickedblocks
+            Fredy Bambang
           </h2>
         </a>
       </div>
@@ -24,92 +24,13 @@
           <h1
             class="mb-3 text-sm font-semibold tracking-widest text-black uppercase title-font"
           >
-            Product
+            Page
           </h1>
           <nav class="mb-10 list-none">
             <li>
               <a class="text-sm text-gray-600 hover:text-gray-800"
-                >Email Templates</a
+                >About</a
               >
-            </li>
-            <li>
-              <a class="text-sm text-gray-600 hover:text-gray-800"
-                >Web Templates</a
-              >
-            </li>
-            <li>
-              <a class="text-sm text-gray-600 hover:text-gray-800"
-                >Figma Files</a
-              >
-            </li>
-            <li>
-              <a class="text-sm text-gray-600 hover:text-gray-800"
-                >Sketch Files</a
-              >
-            </li>
-          </nav>
-        </div>
-        <div class="w-full px-4 lg:w-1/3 md:w-1/2">
-          <h1
-            class="mb-3 text-sm font-semibold tracking-widest text-black uppercase title-font"
-          >
-            Company
-          </h1>
-          <nav class="mb-10 list-none">
-            <li>
-              <a class="text-sm text-gray-600 hover:text-gray-800">Home</a>
-            </li>
-            <li>
-              <a class="text-sm text-gray-600 hover:text-gray-800">About</a>
-            </li>
-            <li>
-              <a class="text-sm text-gray-600 hover:text-gray-800">Carriers</a>
-            </li>
-            <li>
-              <a class="text-sm text-gray-600 hover:text-gray-800">Pricing</a>
-            </li>
-            <li>
-              <a class="text-sm text-gray-600 hover:text-gray-800"> Security</a>
-            </li>
-            <li>
-              <a class="text-sm text-gray-600 hover:text-gray-800">
-                Contact Us</a
-              >
-            </li>
-          </nav>
-        </div>
-        <div class="w-full px-4 lg:w-1/3 md:w-1/2">
-          <h1
-            class="mb-3 text-sm font-semibold tracking-widest text-black uppercase title-font"
-          >
-            Legal
-          </h1>
-          <nav class="mb-10 list-none">
-            <li>
-              <a class="text-sm text-gray-600 hover:text-gray-800"
-                >Privacy Policy</a
-              >
-            </li>
-            <li>
-              <a class="text-sm text-gray-600 hover:text-gray-800"
-                >Terms Of Service</a
-              >
-            </li>
-            <li>
-              <a class="text-sm text-gray-600 hover:text-gray-800"
-                >Trademark Policy</a
-              >
-            </li>
-            <li>
-              <a class="text-sm text-gray-600 hover:text-gray-800"
-                >Inactivity Policy</a
-              >
-            </li>
-            <li>
-              <a class="text-sm text-gray-600 hover:text-gray-800"> DPA</a>
-            </li>
-            <li>
-              <a class="text-sm text-gray-600 hover:text-gray-800">SLA</a>
             </li>
           </nav>
         </div>
