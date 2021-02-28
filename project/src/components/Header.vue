@@ -26,11 +26,11 @@
           >About Me</router-link
         >
       </nav>
-      <button
+      <!-- <button
         class="items-center px-8 py-2 font-semibold text-white transition duration-500 ease-in-out transform bg-black rounded-lg hover:bg-blueGray-900 focus:ring focus:outline-none"
       >
         Buy Me Coffee
-      </button>
+      </button> -->
     </div>
   </div>
 </template>

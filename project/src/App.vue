@@ -1,22 +1,27 @@
 <template>
-  <Header />
-  <router-view />
-  <!-- <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Hello Vue 3 + TypeScript + Vite" /> -->
-  <Footer />
+  <div class="flex flex-col h-screen">
+    <Header />
+    <div class="flex-grow">
+      <router-view />
+      <!-- <img alt="Vue logo" src="./assets/logo.png" />
+          <HelloWorld msg="Hello Vue 3 + TypeScript + Vite" /> -->
+    </div>
+    <Footer />
+  </div>
 </template>
 
 <script lang="ts">
-import { defineComponent } from 'vue'
-import Header from './components/Header.vue'
-import Footer from './components/Footer.vue'
+import { defineComponent } from "vue";
+import Header from "./components/Header.vue";
+import Footer from "./components/Footer.vue";
 
 export default defineComponent({
-  name: 'App',
+  name: "App",
   components: {
-    Header, Footer
-  }
-})
+    Header,
+    Footer,
+  },
+});
 </script>
 
 <style>

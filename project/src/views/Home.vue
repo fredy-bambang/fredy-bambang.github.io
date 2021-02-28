@@ -1,6 +1,6 @@
 <template>
   <section class="text-gray-700 body-font">
-    <div class="container px-8 py-48 mx-auto lg:px-4">
+    <div class="container px-8 py-36 mx-auto lg:px-4">
       <div class="flex flex-col w-full mb-12 text-left lg:text-center">
         <h2
           class="mb-1 text-xs font-semibold tracking-widest text-blue-600 uppercase title-font"
@@ -18,18 +18,6 @@
           Welcome to my page. I like to test this github page as frontend project and try the possibility to hit 3rd party service. 
           In future, i might patch this page by do simple blog and any other feature that i can do.
         </p>
-      </div>
-      <div class="flex lg:justify-center">
-        <!-- <button
-          class="inline-flex px-6 py-2 font-semibold text-white transition duration-500 ease-in-out transform bg-black rounded-lg hover:bg-gray-800 hover:to-black focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2"
-        >
-          Button
-        </button>
-        <button
-          class="inline-flex items-center px-6 py-2 ml-4 font-semibold text-black transition duration-500 ease-in-out transform bg-white border rounded-lg shadow-xl hover:border-gray-600 hover:bg-gray-600 hover:text-white focus:shadow-outline focus:outline-none focus:ring-2 ring-offset-current ring-offset-2"
-        >
-          Button
-        </button> -->
       </div>
     </div>
   </section>
