@@ -21,6 +21,10 @@
         <router-link to="/"
           class="mr-5 text-sm font-semibold text-gray-600 hover:text-gray-800"
           >Home</router-link>
+        <router-link to="/for-recruiter"
+          class="mr-5 text-sm font-semibold text-gray-600 hover:text-gray-800"
+          >For Recruiter</router-link
+        >
         <router-link to="/about"
           class="mr-5 text-sm font-semibold text-gray-600 hover:text-gray-800"
           >About Me</router-link

@@ -1,0 +1,47 @@
+<template>
+  <section class="text-gray-700 body-font">
+    <div class="container px-8 py-5 mx-auto lg:px-4">
+      <div class="box-border md:box-content">
+        <div
+          class="mx-auto text-base font-medium leading-relaxed text-gray-700 lg:w-2/3 my-5"
+        >
+          <b>For Recruiter</b><br />
+          <p>
+            I know that recruit experience tech talent is hype and high demand for this era.<br> 
+            I'm still love work in my current company and it's like my comfort zone for my work life balance and i'm still learning a new stuff here.<br>
+            Personally i'm only a generalist backend programmer, that experienced create new project but not specialist in a single stack. 
+            Currently i use golang and postgres in my current company and follow the company coding style.<br><br>
+
+            I accept side hustle that handle micro task or create a new microservice project or project consultation, and i can afford my time around 1 - 2 hours per day.
+            We can discuss about it as long it's backend side. If need frontend, i think i will ask my peer that usually using <b>React js</b> as their stack to help.<br>
+            And there the list what i personally can do to help: 
+            <ol>
+              <li>Define Project / Product requirement and the implementation like define table, relation</li>
+              <li>Create CRUD api with Laravel (php), Golang or Adonis js (node js) as my backend engineering stack</li>
+              <li>Dockerize golang / javascript project</li>
+              <li>Deploy Laravel Project to shared hosting and setup domain</li>
+              <li>For setup domain on vps, aws, gcp etc, maybe i can ask my peer to help or need do the research, because i never really done it myself</li>
+              <li>Do common ci / cd using github action</li>
+              <li>Other ? just ask on my linked</li>
+            </ol>
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+</template>
+
+<script lang="ts">
+import { ref, defineComponent, reactive } from "vue";
+export default defineComponent({
+  name: "About",
+  props: {
+    msg: {
+      type: String,
+      required: true,
+    },
+  },
+  setup: () => {
+  },
+});
+</script>
