@@ -28,79 +28,212 @@
     <section class="relative z-10 max-w-3xl mx-auto px-6">
         <div class="border-l border-gray-700">
 
-            <!-- Example Project 1 -->
+            <!-- Project 1: Current Role -->
             <div class="ml-6 mb-10 relative">
                 <div class="absolute -left-3 w-6 h-6 bg-blue-500 rounded-full"></div>
-                <time class="ml-6 text-sm text-gray-400">March 2022 – August 2022</time>
-                <h3 class="text-xl font-semibold">Loan Management API Migration</h3>
-                <p class="text-gray-300">Migrated legacy MySQL 5.7 to 8, handled data integrity & API rewrite.</p>
+                <time class="ml-6 text-sm text-gray-400">Jul 2024 – Present</time>
+                <h3 class="text-xl font-semibold">Insurance Brokerage Platform</h3>
+                <p class="text-gray-300">Full-stack insurance system with host-to-host integrations using Symfony & PHP.</p>
                 <button onclick="openModal('modal1')"
                     class="mt-2 px-4 py-2 bg-blue-500 rounded-lg hover:bg-blue-600">View Case Study</button>
             </div>
 
-            <!-- Example Project 2 -->
+            <!-- Project 2: Career Break Projects -->
+            <div class="ml-6 mb-10 relative">
+                <div class="absolute -left-3 w-6 h-6 bg-amber-500 rounded-full"></div>
+                <time class="ml-6 text-sm text-gray-400">Jan 2024 – Jun 2024</time>
+                <h3 class="text-xl font-semibold">Tech Entrepreneurship & Learning</h3>
+                <p class="text-gray-300">Freelance development, technical consulting, and business model exploration.</p>
+                <button onclick="openModal('modal2')"
+                    class="mt-2 px-4 py-2 bg-amber-500 rounded-lg hover:bg-amber-600">View Case Study</button>
+            </div>
+
+            <!-- Project 3: MySQL Migration -->
             <div class="ml-6 mb-10 relative">
                 <div class="absolute -left-3 w-6 h-6 bg-green-500 rounded-full"></div>
-                <time class="ml-6 text-sm text-gray-400">Jan 2023 – April 2023</time>
-                <h3 class="text-xl font-semibold">Payment Gateway Integration</h3>
-                <p class="text-gray-300">Built B2B payment gateway, secured transactions, tracked identifiers.</p>
-                <button onclick="openModal('modal2')"
+                <time class="ml-6 text-sm text-gray-400">Oct 2022 – Dec 2023</time>
+                <h3 class="text-xl font-semibold">Zero-Downtime MySQL 5.7 → 8 Migration</h3>
+                <p class="text-gray-300">Critical database migration for banking operations at FinAccel (Go, MySQL).</p>
+                <button onclick="openModal('modal3')"
                     class="mt-2 px-4 py-2 bg-green-500 rounded-lg hover:bg-green-600">View Case Study</button>
             </div>
 
-            <!-- Example Project 3 -->
+            <!-- Project 4: Event-Driven Insurance -->
             <div class="ml-6 mb-10 relative">
                 <div class="absolute -left-3 w-6 h-6 bg-purple-500 rounded-full"></div>
-                <time class="ml-6 text-sm text-gray-400">Oct 2023</time>
-                <h3 class="text-xl font-semibold">Grafana Log Analysis Dashboard</h3>
-                <p class="text-gray-300">Created dashboards for HTTP logs, client/service request tracking.</p>
-                <button onclick="openModal('modal3')"
+                <time class="ml-6 text-sm text-gray-400">2023</time>
+                <h3 class="text-xl font-semibold">Event-Driven Insurance System</h3>
+                <p class="text-gray-300">Kafka-based async insurance flows: creation, deactivation, cancellation.</p>
+                <button onclick="openModal('modal4')"
                     class="mt-2 px-4 py-2 bg-purple-500 rounded-lg hover:bg-purple-600">View Case Study</button>
+            </div>
+
+            <!-- Project 5: Asset Management System -->
+            <div class="ml-6 mb-10 relative">
+                <div class="absolute -left-3 w-6 h-6 bg-cyan-500 rounded-full"></div>
+                <time class="ml-6 text-sm text-gray-400">2019 – 2021</time>
+                <h3 class="text-xl font-semibold">Internal Asset Management System</h3>
+                <p class="text-gray-300">Built twice: v1 with AdonisJS, v2 refactored to Go for performance.</p>
+                <button onclick="openModal('modal5')"
+                    class="mt-2 px-4 py-2 bg-cyan-500 rounded-lg hover:bg-cyan-600">View Case Study</button>
+            </div>
+
+            <!-- Project 6: Secured Loan Platform -->
+            <div class="ml-6 mb-10 relative">
+                <div class="absolute -left-3 w-6 h-6 bg-rose-500 rounded-full"></div>
+                <time class="ml-6 text-sm text-gray-400">2018 – 2019</time>
+                <h3 class="text-xl font-semibold">Secured Loan Application System</h3>
+                <p class="text-gray-300">Express.js backend + Vue.js frontend with confidential finance integrations.</p>
+                <button onclick="openModal('modal6')"
+                    class="mt-2 px-4 py-2 bg-rose-500 rounded-lg hover:bg-rose-600">View Case Study</button>
+            </div>
+
+            <!-- Project 7: B2B Travel Application -->
+            <div class="ml-6 mb-10 relative">
+                <div class="absolute -left-3 w-6 h-6 bg-indigo-500 rounded-full"></div>
+                <time class="ml-6 text-sm text-gray-400">Sep 2015 – Oct 2016</time>
+                <h3 class="text-xl font-semibold">B2B Travel Application</h3>
+                <p class="text-gray-300">Custom Laravel prototype from requirements to deployment.</p>
+                <button onclick="openModal('modal7')"
+                    class="mt-2 px-4 py-2 bg-indigo-500 rounded-lg hover:bg-indigo-600">View Case Study</button>
+            </div>
+
+            <!-- Project 8: ERP Manufacturing Modules -->
+            <div class="ml-6 mb-10 relative">
+                <div class="absolute -left-3 w-6 h-6 bg-orange-500 rounded-full"></div>
+                <time class="ml-6 text-sm text-gray-400">Oct 2012 – Sep 2015</time>
+                <h3 class="text-xl font-semibold">Enterprise ERP System</h3>
+                <p class="text-gray-300">Manufacturing modules with Java & Oracle for large-scale clients.</p>
+                <button onclick="openModal('modal8')"
+                    class="mt-2 px-4 py-2 bg-orange-500 rounded-lg hover:bg-orange-600">View Case Study</button>
             </div>
 
         </div>
     </section>
 
     <!-- Modals -->
-    <!-- Note: added 'flex' to center content and inline click handler to allow click-outside-to-close -->
+    <!-- Modal 1: Insurance Brokerage -->
     <div id="modal1" class="fixed inset-0 bg-black bg-opacity-70 hidden flex items-center justify-center z-50"
         onclick="if(event.target === this) closeModal('modal1')">
-        <div class="bg-gray-800 rounded-lg p-6 max-w-lg w-full relative">
+        <div class="bg-gray-800 rounded-lg p-6 max-w-lg w-full relative max-h-[80vh] overflow-y-auto">
             <button onclick="closeModal('modal1')"
                 class="absolute top-2 right-2 text-gray-400 hover:text-white">✕</button>
-            <h2 class="text-2xl font-bold mb-4">Loan Management API Migration</h2>
-            <p class="mb-4 text-gray-300"><strong>Duration:</strong> March 2022 – August 2022</p>
-            <p class="mb-2"><strong>Problem:</strong> Legacy MySQL 5.7 system had scaling & data issues.</p>
-            <p class="mb-2"><strong>Solution:</strong> Migrated to MySQL 8, rewrote APIs for better tracking.</p>
-            <p><strong>Impact:</strong> Improved stability, reduced downtime, easier client tracking.</p>
+            <h2 class="text-2xl font-bold mb-4">Insurance Brokerage Platform</h2>
+            <p class="mb-4 text-gray-300"><strong>Duration:</strong> Jul 2024 – Present | PT Clarus Innovace Technology</p>
+            <p class="mb-2"><strong>Challenge:</strong> Build full-stack insurance system connecting lenders with multiple insurance providers.</p>
+            <p class="mb-2"><strong>Solution:</strong> Architected host-to-host API integrations between PNM (lender) and insurance providers. Built complete claims management workflow: validation → document handling → approval automation. Created functional admin dashboards for policy management and client onboarding.</p>
+            <p class="mb-2"><strong>Role:</strong> Technical client contact for requirements analysis, solution design, and UAT sessions.</p>
+            <p><strong>Stack:</strong> Symfony Framework, PHP</p>
         </div>
     </div>
 
+    <!-- Modal 2: Career Break -->
     <div id="modal2" class="fixed inset-0 bg-black bg-opacity-70 hidden flex items-center justify-center z-50"
         onclick="if(event.target === this) closeModal('modal2')">
-        <div class="bg-gray-800 rounded-lg p-6 max-w-lg w-full relative">
+        <div class="bg-gray-800 rounded-lg p-6 max-w-lg w-full relative max-h-[80vh] overflow-y-auto">
             <button onclick="closeModal('modal2')"
                 class="absolute top-2 right-2 text-gray-400 hover:text-white">✕</button>
-            <h2 class="text-2xl font-bold mb-4">Payment Gateway Integration</h2>
-            <p class="mb-4 text-gray-300"><strong>Duration:</strong> Jan 2023 – April 2023</p>
-            <p class="mb-2"><strong>Problem:</strong> Needed unified B2B/B2C payment system.</p>
-            <p class="mb-2"><strong>Solution:</strong> Built payment gateway, handled identifiers across
-                broker/client/insurer.</p>
-            <p><strong>Impact:</strong> Faster onboarding, reduced transaction errors.</p>
+            <h2 class="text-2xl font-bold mb-4">Tech Entrepreneurship & Learning</h2>
+            <p class="mb-4 text-gray-300"><strong>Duration:</strong> Jan 2024 – Jun 2024</p>
+            <p class="mb-2"><strong>Focus:</strong> Intentional career break to explore business and deepen technical skills.</p>
+            <p class="mb-2"><strong>Activities:</strong></p>
+            <ul class="list-disc list-inside text-gray-300 mb-2 ml-4">
+                <li>Freelance development projects</li>
+                <li>Technical consulting for friends' startups</li>
+                <li>Engaged with business communities: product validation, business models, GTM strategies</li>
+                <li>Hands-on practice with Go and Laravel, refining pragmatic development approaches</li>
+            </ul>
+            <p><strong>Outcome:</strong> Gained business perspective, validated technical preferences (Go/Laravel), prepared for next chapter.</p>
         </div>
     </div>
 
+    <!-- Modal 3: MySQL Migration -->
     <div id="modal3" class="fixed inset-0 bg-black bg-opacity-70 hidden flex items-center justify-center z-50"
         onclick="if(event.target === this) closeModal('modal3')">
-        <div class="bg-gray-800 rounded-lg p-6 max-w-lg w-full relative">
+        <div class="bg-gray-800 rounded-lg p-6 max-w-lg w-full relative max-h-[80vh] overflow-y-auto">
             <button onclick="closeModal('modal3')"
                 class="absolute top-2 right-2 text-gray-400 hover:text-white">✕</button>
-            <h2 class="text-2xl font-bold mb-4">Grafana Log Analysis Dashboard</h2>
-            <p class="mb-4 text-gray-300"><strong>Duration:</strong> Oct 2023</p>
-            <p class="mb-2"><strong>Problem:</strong> Hard to separate logs between outgoing client calls & incoming
-                service requests.</p>
-            <p class="mb-2"><strong>Solution:</strong> Designed two dashboards with filters (URL, status, method).</p>
-            <p><strong>Impact:</strong> Easier debugging, improved monitoring.</p>
+            <h2 class="text-2xl font-bold mb-4">Zero-Downtime MySQL Migration</h2>
+            <p class="mb-4 text-gray-300"><strong>Duration:</strong> Oct 2022 – Dec 2023 | FinAccel (Kredivo)</p>
+            <p class="mb-2"><strong>Challenge:</strong> Migrate mission-critical MySQL 5.7 to 8.0 for banking operations without downtime.</p>
+            <p class="mb-2"><strong>Solution:</strong> Architected near-zero-downtime migration strategy coordinating with Infra, DBA, and Security teams. Led database cloning from Kredivo to Kredifazz Lender Database ensuring OJK financial compliance. Designed real-time audit trail system consuming Kafka streams for configuration change traceability.</p>
+            <p class="mb-2"><strong>Impact:</strong> Seamless migration with no service interruption. Improved database performance. Full regulatory compliance maintained.</p>
+            <p><strong>Stack:</strong> Go, MySQL, Kafka</p>
+        </div>
+    </div>
+
+    <!-- Modal 4: Event-Driven Insurance -->
+    <div id="modal4" class="fixed inset-0 bg-black bg-opacity-70 hidden flex items-center justify-center z-50"
+        onclick="if(event.target === this) closeModal('modal4')">
+        <div class="bg-gray-800 rounded-lg p-6 max-w-lg w-full relative max-h-[80vh] overflow-y-auto">
+            <button onclick="closeModal('modal4')"
+                class="absolute top-2 right-2 text-gray-400 hover:text-white">✕</button>
+            <h2 class="text-2xl font-bold mb-4">Event-Driven Insurance System</h2>
+            <p class="mb-4 text-gray-300"><strong>Duration:</strong> 2023 | FinAccel</p>
+            <p class="mb-2"><strong>Challenge:</strong> Transform synchronous insurance operations into scalable async flows.</p>
+            <p class="mb-2"><strong>Solution:</strong> Pioneered event-driven architecture using Kafka for insurance creation, deactivation, and cancellation. Implemented state-based processing with retry mechanisms and dead-letter queues. Built comprehensive Kafka consumers and scheduled jobs for reliability.</p>
+            <p class="mb-2"><strong>Impact:</strong> Reduced blocking operations. Improved system resilience. Enabled better monitoring and debugging of insurance workflows.</p>
+            <p><strong>Stack:</strong> Go, Kafka, MySQL</p>
+        </div>
+    </div>
+
+    <!-- Modal 5: Asset Management -->
+    <div id="modal5" class="fixed inset-0 bg-black bg-opacity-70 hidden flex items-center justify-center z-50"
+        onclick="if(event.target === this) closeModal('modal5')">
+        <div class="bg-gray-800 rounded-lg p-6 max-w-lg w-full relative max-h-[80vh] overflow-y-auto">
+            <button onclick="closeModal('modal5')"
+                class="absolute top-2 right-2 text-gray-400 hover:text-white">✕</button>
+            <h2 class="text-2xl font-bold mb-4">Internal Asset Management System</h2>
+            <p class="mb-4 text-gray-300"><strong>Duration:</strong> 2019 – 2021 | PT Payfazz</p>
+            <p class="mb-2"><strong>Challenge:</strong> Build company-wide asset tracking system serving hundreds of employees.</p>
+            <p class="mb-2"><strong>Solution:</strong> Built v1 with AdonisJS for rapid MVP delivery. Later refactored to Go v2 for improved performance and maintainability. Implemented approval workflows, asset lifecycle tracking, and reporting dashboards.</p>
+            <p class="mb-2"><strong>Learning:</strong> Experienced firsthand the value of choosing the right stack. Go version had better performance and was easier to maintain at scale.</p>
+            <p><strong>Stack:</strong> AdonisJS → Go, MySQL</p>
+        </div>
+    </div>
+
+    <!-- Modal 6: Secured Loan -->
+    <div id="modal6" class="fixed inset-0 bg-black bg-opacity-70 hidden flex items-center justify-center z-50"
+        onclick="if(event.target === this) closeModal('modal6')">
+        <div class="bg-gray-800 rounded-lg p-6 max-w-lg w-full relative max-h-[80vh] overflow-y-auto">
+            <button onclick="closeModal('modal6')"
+                class="absolute top-2 right-2 text-gray-400 hover:text-white">✕</button>
+            <h2 class="text-2xl font-bold mb-4">Secured Loan Application System</h2>
+            <p class="mb-4 text-gray-300"><strong>Duration:</strong> 2018 – 2019 | PT Payfazz</p>
+            <p class="mb-2"><strong>Challenge:</strong> Build full-stack loan application platform with confidential third-party integrations.</p>
+            <p class="mb-2"><strong>Solution:</strong> Engineered Express.js backend + Vue.js frontend. Implemented secure API integrations with finance companies for loan underwriting and review. Built user application flow with document upload, status tracking, and notification system.</p>
+            <p class="mb-2"><strong>Impact:</strong> Enabled Payfazz to offer secured loan products. Seamless integration with partners maintaining data security.</p>
+            <p><strong>Stack:</strong> Express.js, Vue.js, Node.js</p>
+        </div>
+    </div>
+
+    <!-- Modal 7: B2B Travel -->
+    <div id="modal7" class="fixed inset-0 bg-black bg-opacity-70 hidden flex items-center justify-center z-50"
+        onclick="if(event.target === this) closeModal('modal7')">
+        <div class="bg-gray-800 rounded-lg p-6 max-w-lg w-full relative max-h-[80vh] overflow-y-auto">
+            <button onclick="closeModal('modal7')"
+                class="absolute top-2 right-2 text-gray-400 hover:text-white">✕</button>
+            <h2 class="text-2xl font-bold mb-4">B2B Travel Application</h2>
+            <p class="mb-4 text-gray-300"><strong>Duration:</strong> Sep 2015 – Oct 2016 | Freelance</p>
+            <p class="mb-2"><strong>Challenge:</strong> Build custom B2B travel booking platform from scratch.</p>
+            <p class="mb-2"><strong>Solution:</strong> Developed prototype using Laravel handling full project lifecycle: requirements analysis → design → development → testing → deployment. Collaborated directly with client translating business needs into technical features.</p>
+            <p class="mb-2"><strong>Learning:</strong> First major solo project managing client expectations and full-stack delivery.</p>
+            <p><strong>Stack:</strong> Laravel, PHP</p>
+        </div>
+    </div>
+
+    <!-- Modal 8: ERP System -->
+    <div id="modal8" class="fixed inset-0 bg-black bg-opacity-70 hidden flex items-center justify-center z-50"
+        onclick="if(event.target === this) closeModal('modal8')">
+        <div class="bg-gray-800 rounded-lg p-6 max-w-lg w-full relative max-h-[80vh] overflow-y-auto">
+            <button onclick="closeModal('modal8')"
+                class="absolute top-2 right-2 text-gray-400 hover:text-white">✕</button>
+            <h2 class="text-2xl font-bold mb-4">Enterprise ERP System</h2>
+            <p class="mb-4 text-gray-300"><strong>Duration:</strong> Oct 2012 – Sep 2015 | PT Sofco Graha</p>
+            <p class="mb-2"><strong>Challenge:</strong> Build manufacturing ERP modules for enterprise clients.</p>
+            <p class="mb-2"><strong>Solution:</strong> Developed multiple modules using Java and Oracle database. Participated in full project lifecycle including on-site deployments and bug resolution. Worked with senior engineers to map complex manufacturing processes into technical solutions.</p>
+            <p class="mb-2"><strong>Foundation:</strong> First professional software engineering role. Learned enterprise development practices, database design, and client-facing deployment.</p>
+            <p><strong>Stack:</strong> Java, Oracle Database</p>
         </div>
     </div>
 
