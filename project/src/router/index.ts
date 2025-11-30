@@ -1,7 +1,5 @@
-import { createWebHistory, createRouter, createWebHashHistory } from "vue-router";
+import { createWebHistory, createRouter } from "vue-router";
 import Home from "../views/Home.vue";
-import About from "../views/About.vue";
-import ForRecruiter from "../views/ForRecruiter.vue";
 
 const routes = [
   {
@@ -9,21 +7,23 @@ const routes = [
     name: "Home",
     component: Home,
   },
-  {
-    path: "/about",
-    name: "About",
-    component: About,
-  },
-  {
-    path: "/for-recruiter",
-    name: "ForRecruiter",
-    component: ForRecruiter,
-  },
 ];
 
 const router = createRouter({
-  history: createWebHashHistory(),
+  history: createWebHistory(),
   routes,
+  scrollBehavior(to, from, savedPosition) {
+    if (to.hash) {
+      return {
+        el: to.hash,
+        behavior: 'smooth',
+      }
+    }
+    if (savedPosition) {
+      return savedPosition
+    }
+    return { top: 0 }
+  },
 });
 
 export default router;

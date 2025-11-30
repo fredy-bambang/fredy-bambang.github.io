@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  * {
+    @apply border-gray-700;
+  }
+  
+  body {
+    @apply bg-gray-900 text-white antialiased;
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent;
+  }
+}

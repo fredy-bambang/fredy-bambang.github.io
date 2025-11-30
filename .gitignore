@@ -1,5 +1,21 @@
+# Dependencies
+node_modules
 project/node_modules
-.DS_Store
+
+# Build (keep root build files for GitHub Pages)
 project/dist
-project/dist-ssr
+dist-ssr
+
+# IDE
+.DS_Store
+.vscode
+.idea
 *.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# Environment
+.env
+.env.local

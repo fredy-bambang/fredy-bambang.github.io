@@ -1,87 +1,21 @@
 <!DOCTYPE html>
-<html lang="en" class="bg-gray-900 text-white">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Fredy Bambang | Software Developer</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
-</head>
-
-<body class="font-sans relative">
-
-  <!-- Navbar -->
-  <nav class="absolute top-0 left-0 w-full flex justify-end p-6 text-gray-300 text-sm">
-    <ul class="flex gap-6">
-      <li>
-        <a href="projects.html" class="hover:text-white">Projects</a>
-      </li>
-      <li>
-        <a href="https://www.linkedin.com/in/fredy-bambang" target="_blank" 
-           class="hover:text-white">LinkedIn</a>
-      </li>
-    </ul>
-  </nav>
-
-  <!-- Hero -->
-  <section class="h-screen flex flex-col items-center justify-center text-center px-6">
-    <h1 class="text-5xl md:text-6xl font-bold mb-4">Hi, I’m Fredy 👋</h1>
-    <p id="tagline" class="text-lg md:text-xl text-gray-300 mb-6">
-      Software Developer | Tech Enthusiast | Lifelong Learner | Collaboration Engineer
-    </p>
-    <a href="projects.html"
-      class="px-6 py-3 bg-blue-500 rounded-lg hover:bg-blue-600 transition duration-300 transform hover:scale-105 hover:shadow-lg hover:-translate-y-1">
-      View My Work 🚀
-    </a>
-  </section>
-
-  <!-- Animated Background -->
-  <canvas id="bg" class="fixed top-0 left-0 w-full h-full -z-10"></canvas>
-
-  <script>
-    // Starfield
-    const canvas = document.getElementById("bg");
-    const ctx = canvas.getContext("2d");
-    canvas.width = window.innerWidth;
-    canvas.height = window.innerHeight;
-
-    let stars = Array.from({ length: 100 }, () => ({
-      x: Math.random() * canvas.width,
-      y: Math.random() * canvas.height,
-      r: Math.random() * 2
-    }));
-
-    function draw() {
-      ctx.fillStyle = "#0f172a";
-      ctx.fillRect(0, 0, canvas.width, canvas.height);
-      ctx.fillStyle = "white";
-      stars.forEach(s => {
-        ctx.beginPath();
-        ctx.arc(s.x, s.y, s.r, 0, Math.PI * 2);
-        ctx.fill();
-      });
-    }
-
-    function animate() {
-      stars.forEach(s => {
-        s.y += 0.5;
-        if (s.y > canvas.height) s.y = 0;
-      });
-      draw();
-      requestAnimationFrame(animate);
-    }
-
-    animate();
-
-    // Animate tagline with fade-in
-    anime({
-      targets: '#tagline',
-      opacity: [0, 1],
-      duration: 2000,
-      easing: 'easeInOutQuad'
-    });
-  </script>
-</body>
-
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Fredy Bambang - Full Stack Engineer with 13+ years of experience in building scalable systems" />
+    <meta name="keywords" content="Software Engineer, Full Stack Developer, Backend Developer, Go, PHP, TypeScript, Vue.js" />
+    <meta property="og:title" content="Fredy Bambang - Software Engineer" />
+    <meta property="og:description" content="Full Stack Engineer specializing in backend systems and microservices architecture" />
+    <meta property="og:type" content="website" />
+    <title>Fredy Bambang | Software Engineer</title>
+    <script type="module" crossorigin src="/assets/index-fa176f2f.js"></script>
+    <link rel="modulepreload" crossorigin href="/assets/vendor-fe852ab0.js">
+    <link rel="stylesheet" href="/assets/index-25433c65.css">
+  </head>
+  <body>
+    <div id="app"></div>
+    
+  </body>
 </html>
